@@ -1,0 +1,22 @@
+<!-- CSC 633-050 - Michael Scandiffio -->
+<!-- This scene showcases a light-blue octahedron infront of a pink sky with a dark blue floor.-->
+<!-- The octahedron is surrounded by 3 toruses.  The largest is green.  The middle is orange.  The smallest one is blue.-->
+<!-- Each torus is rotated, sized, and positioned uniquely.  -->
+<!-- My goal was to place these objects in front of the camera with my name below them against a dark background (the floor), and for none of the objects to intersect with eachother.-->
+<!-- All of the objects are positioned in front of the camera by setting them back on their third axis by a negative amount. -->
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <a-torus position="0 4 -10" rotation="-43 30 29" color="#e68860" arc="360" radius="4.5" radius-tubular=".1"></a-torus>
+            <a-torus position="0 2 -11" rotation="30 -40 43" color="#6088e6" arc="360" radius="3.2" radius-tubular=".05"></a-torus>
+            <a-torus position="2 2 -10" rotation="29 20 -33" color="#88e660" arc="360" radius="5.3" radius-tubular=".2"></a-torus>
+            <a-octahedron position="0 3 -11" color="#beddeb" radius="3"></a-octahedron>
+            <a-plane position="0 -5 -50" rotation="-90 0 0" width="40" height="100" color="#19004d"></a-plane>
+            <a-text position="-1 0 -3" value="Michael Scandiffio"></a-text>
+            <a-sky color="#ebbee8"></a-sky>
+        </a-scene>
+    </body>
+</html>
