@@ -12,6 +12,7 @@
             <a-assets>
                 <a-asset-item id="teapot-obj" src="static/utah_teapot.obj"></a-asset-item>
                 <a-asset-item id="suzanne-obj" src="static/suzanne.obj"></a-asset-item>
+                <a-asset-item id="benchy-obj" src="static/3DBenchy.obj"></a-asset-item>
             </a-assets>
 
             <a-entity 
@@ -21,8 +22,8 @@
 
             <a-entity clickable>
                 <a-entity id="teapot" class="raycastable clickable" rotation="-90 0 0" position="0 -3 -12" obj-model="obj: #teapot-obj"></a-entity>
-                <a-icosahedron id="icosahedron" class="raycastable clickable" rotation="0 45 0" position="7 -1 -8"></a-icosahedron> 
-                <a-cone id="cone" radius-bottom="1.5" height="3" radius-top="0.1" class="raycastable clickable" rotation="0 0 0" position="12 -1 0"></a-cone>
+                <a-icosahedron id="icosahedron" class="raycastable clickable" rotation="0 45 0" position="7 -1 -8"></a-icosahedron>
+                <a-entity id="benchy" class="raycastable clickable" scale="0.1 0.1 0.1" rotation="270 90 0" position="12 -2 0" obj-model="obj: #benchy-obj"></a-entity> 
                 <a-dodecahedron id="dodecahedron" class="raycastable clickable" rotation="0 45 0" position="7 -1 8"></a-dodecahedron>
                 <a-torus id="torus" class="raycastable clickable" rotation="0 0 0" position="0 -1 12"></a-torus>
                 <a-tetrahedron id="tetrahedron" class="raycastable clickable" rotation="0 45 0" position="-7 -1 8"></a-tetrahedron>

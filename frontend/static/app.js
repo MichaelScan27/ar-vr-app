@@ -20,9 +20,9 @@ AFRAME.registerComponent('clickable', {
                 name: 'Icosahedron',
                 description: 'A twenty-sided shape composed entirely of equilateral triangles'
             },
-            cone: {
-                name: 'Cone',
-                description: 'A shape with a circular base that tapers to a point.'
+            benchy: {
+                name: '3DBenchy (2015)',
+                description: 'A model used a benchmarking tool for 3D printers.'
             },
             dodecahedron: {
                 name: 'Dodecahedron',
